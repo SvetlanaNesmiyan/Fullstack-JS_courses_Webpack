@@ -11,8 +11,7 @@ module.exports = (env, argv) => {
     output: {
       filename: isProduction ? '[name].[contenthash].js' : '[name].js',
       path: path.resolve(__dirname, 'docs'),
-      assetModuleFilename: 'assets/[name].[hash][ext][query]',
-      publicPath: '/'
+      assetModuleFilename: 'assets/[name].[hash][ext][query]'
     },
     resolve: {
       alias: {
