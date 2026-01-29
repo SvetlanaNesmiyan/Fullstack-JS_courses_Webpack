@@ -30,7 +30,6 @@ module.exports = (env, argv) => {
     },
     module: {
       rules: [
-        // CSS правила
         {
           test: /\.css$/i,
           use: [
@@ -38,7 +37,6 @@ module.exports = (env, argv) => {
             'css-loader'
           ],
         },
-        // Зображення
         {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,
           type: 'asset/resource',
@@ -46,7 +44,6 @@ module.exports = (env, argv) => {
             filename: 'images/[name].[hash][ext]'
           }
         },
-        // Шрифти
         {
           test: /\.(woff|woff2|eot|ttf|otf)$/i,
           type: 'asset/resource',

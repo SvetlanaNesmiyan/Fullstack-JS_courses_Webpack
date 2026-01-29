@@ -1,9 +1,7 @@
 import './styles/main.css';
 import * as images from './images';
 
-// Дані персонажів з ваших скріншотів
 const characters = [
-    // Перший файл (Glacio)
     { name: 'Lingyang', rarity: 5, role: 'DPS', image: images.lingyangImg, roleIcon: images.glacioImg, weaponIcon: images.gauntletsImg },
     { name: 'Zhezhi', rarity: 5, role: 'Support', image: images.zhezhiImg, roleIcon: images.glacioImg, weaponIcon: images.rectifierImg },
     { name: 'Carlotta', rarity: 5, role: 'Support', image: images.carlottaImg, roleIcon: images.glacioImg, weaponIcon: images.pistolsImg },
@@ -17,7 +15,6 @@ const characters = [
     { name: 'Yinlin', rarity: 5, role: 'Support', image: images.yinlinImg, roleIcon: images.electroImg, weaponIcon: images.rectifierImg },
     { name: 'Jinhsi', rarity: 5, role: 'DPS', image: images.jinhsiImg, roleIcon: images.spectroImg, weaponIcon: images.broadbladeImg },
 
-    // Другий файл
     { name: 'Roccia', rarity: 5, role: 'Support', image: images.rocciaImg, roleIcon: images.havocImg, weaponIcon: images.gauntletsImg },
     { name: 'Cantarella', rarity: 5, role: 'Support', image: images.cantarellaImg, roleIcon: images.havocImg, weaponIcon: images.rectifierImg },
     { name: 'Phrolova', rarity: 5, role: 'Support', image: images.phrolovaImg, roleIcon: images.havocImg, weaponIcon: images.rectifierImg },
@@ -34,7 +31,6 @@ const characters = [
     { name: 'Taoqi', rarity: 4, role: 'Support', image: images.taoqiImg, roleIcon: images.havocImg, weaponIcon: images.broadbladeImg },
     { name: 'Danjin', rarity: 4, role: 'DPS', image: images.danjinImg, roleIcon: images.havocImg, weaponIcon: images.swordImg },
 
-    // Третій і четвертий файли
     { name: 'Xiangli Yao', rarity: 5, role: 'DPS', image: images.xiangliYaoImg, roleIcon: images.electroImg, weaponIcon: images.gauntletsImg },
     { name: 'Augusta', rarity: 5, role: 'Support', image: images.augustaImg, roleIcon: images.electroImg, weaponIcon: images.broadbladeImg },
     { name: 'Jiyan', rarity: 5, role: 'DPS', image: images.jiyanImg, roleIcon: images.aeroImg, weaponIcon: images.broadbladeImg },
