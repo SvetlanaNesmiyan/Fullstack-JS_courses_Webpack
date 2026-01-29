@@ -7,8 +7,8 @@
 
 @font-face {
     font-family: 'GameFont';
-    src: url(/fonts/GameStore-Regular.5d6dc6ffeb449dd09960.woff) format('woff2'),
-         url(/fonts/SpongeLump-Regular.1f624aae68f043838292.woff2) format('woff');
+    src: url('@fonts/GameStore-Regular.woff') format('woff2'),
+         url('@fonts/SpongeLump-Regular.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
