@@ -10,8 +10,9 @@ module.exports = (env, argv) => {
     entry: './src/index.js',
     output: {
       filename: isProduction ? '[name].[contenthash].js' : '[name].js',
-      path: path.resolve(__dirname, 'dist'),
-      assetModuleFilename: 'assets/[name].[hash][ext][query]'
+      path: path.resolve(__dirname, 'docs'),
+      assetModuleFilename: 'assets/[name].[hash][ext][query]',
+      publicPath: '/'
     },
     resolve: {
       alias: {
@@ -21,7 +22,7 @@ module.exports = (env, argv) => {
     },
     devServer: {
       static: {
-        directory: path.join(__dirname, 'dist'),
+        directory: path.join(__dirname, 'docs'),
       },
       compress: true,
       port: 9000,
