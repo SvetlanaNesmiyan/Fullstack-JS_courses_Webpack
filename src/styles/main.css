@@ -1,3 +1,4 @@
+/* Reset & Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +41,7 @@ body {
     padding: 0 20px;
 }
 
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -126,6 +128,7 @@ body {
     color: #00b4d8;
 }
 
+/* Main Content */
 .page-title {
     text-align: left;
     margin-bottom: 30px;
@@ -151,6 +154,7 @@ body {
     margin: 0;
 }
 
+/* Filters */
 .filters {
     display: flex;
     justify-content: center;
@@ -180,6 +184,7 @@ body {
     border-color: #00b4d8;
 }
 
+/* Characters Grid */
 .characters-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -198,6 +203,7 @@ body {
     overflow: hidden;
 }
 
+/* Бейджі в правому верхньому кутку */
 .card-badges {
     position: absolute;
     top: 15px;
@@ -233,6 +239,7 @@ body {
     font-size: 16px;
 }
 
+/* Иконка роли справа от аватара */
 .role-icon-badge {
     position: absolute;
     top: 15px;
